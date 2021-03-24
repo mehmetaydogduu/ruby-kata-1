@@ -9,10 +9,10 @@ ActiveAdmin.register Book do
   #
   # or
   #
-  # permit_params do
-  #   permitted = [:title, :isbn, :author_id, :description]
+  permit_params do
+    permitted = [:title, :isbn, :author_id, :description]
   #   permitted << :other if params[:action] == 'create' && current_user.admin?
   #   permitted
-  # end
+  end
   
 end

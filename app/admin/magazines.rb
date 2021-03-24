@@ -9,10 +9,10 @@ ActiveAdmin.register Magazine do
   #
   # or
   #
-  # permit_params do
-  #   permitted = [:title, :isbn, :author_id, :published_at]
+  permit_params do
+    permitted = [:title, :isbn, :author_id, :published_at]
   #   permitted << :other if params[:action] == 'create' && current_user.admin?
   #   permitted
-  # end
+  end
   
 end
