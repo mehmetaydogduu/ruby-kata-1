@@ -1,9 +1,9 @@
 # To run
-'''
+```
 bundle install
 rails db:setup
 rails s
-'''
+```
 
 # Ruby Kata - Part 1: Library
 
