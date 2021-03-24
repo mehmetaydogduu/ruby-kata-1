@@ -4,6 +4,7 @@ bundle install
 rails db:setup
 rails s
 ```
+You will see application on htpp://localhost:3000
 
 # Ruby Kata - Part 1: Library
 
