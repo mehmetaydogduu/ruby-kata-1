@@ -1,3 +1,10 @@
+# To run
+'''
+bundle install
+rails db:setup
+rails s
+'''
+
 # Ruby Kata - Part 1: Library
 
 Code kata in Ruby where you have to write a library of books and magazines.
